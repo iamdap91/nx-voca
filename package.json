@@ -9,6 +9,8 @@
     "test": "nx test",
     "lint": "nx workspace-lint && nx lint",
     "e2e": "nx e2e",
+    "backend:serve" : "nx run backend:serve",
+    "backend:serve:prod" : "nx run backend:serve --prod",
     "affected:apps": "nx affected:apps",
     "affected:libs": "nx affected:libs",
     "affected:build": "nx affected:build",
