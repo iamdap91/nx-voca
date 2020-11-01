@@ -28,6 +28,9 @@
     },
     "database-mysql": {
       "tags": []
+    },
+    "models": {
+      "tags": []
     }
   }
 }

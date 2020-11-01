@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@voca/database/mysql": ["libs/database/mysql/src/index.ts"]
+      "@voca/database/mysql": ["libs/database/mysql/src/index.ts"],
+      "@voca/models": ["libs/models/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
