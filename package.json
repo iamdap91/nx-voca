@@ -9,8 +9,8 @@
     "test": "nx test",
     "lint": "nx workspace-lint && nx lint",
     "e2e": "nx e2e",
-    "backend:serve" : "nx run backend:serve",
-    "backend:serve:prod" : "nx run backend:serve --prod",
+    "backend:serve": "nx run backend:serve",
+    "backend:serve:prod": "nx run backend:serve --prod",
     "affected:apps": "nx affected:apps",
     "affected:libs": "nx affected:libs",
     "affected:build": "nx affected:build",
@@ -32,6 +32,7 @@
     "@nestjs/common": "^7.0.0",
     "@nestjs/core": "^7.0.0",
     "@nestjs/platform-express": "^7.0.0",
+    "@nestjs/typeorm": "^7.1.4",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~6.5.5"
   },

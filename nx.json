@@ -25,6 +25,9 @@
   "projects": {
     "backend": {
       "tags": []
+    },
+    "database-mysql": {
+      "tags": []
     }
   }
 }
