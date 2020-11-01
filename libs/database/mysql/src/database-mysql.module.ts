@@ -1,8 +1,7 @@
 import { Module } from '@nestjs/common';
-import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
-import { MysqlConfigService } from './mysql-config.service';
+import { MysqlConfigService } from './services/mysql-config.service';
 import { VocaConfigModule } from './configs/voca.config.module';
 
 @Module({
